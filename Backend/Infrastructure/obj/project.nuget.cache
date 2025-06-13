@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rS4we+THInCTzD55UzGXB9oDr2zBE0EszMPkNKDbOR5+K8WnA6HM/vovzkYGErswTImSahyf9FEx9L52YHsg3A==",
+  "success": true,
+  "projectFilePath": "D:\\caos\\ProjectManagementSystem\\Backend\\Infrastructure\\Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AGSalud\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
