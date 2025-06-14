@@ -28,8 +28,8 @@ public class TaskService : ITaskService
 
         await _taskRepository.AddAsync(task);
         return new TaskResponseDTO(
-            task.Id, task.Title, task.Description, 
-            task.ProjectId, task.AssignedUserId, 
+            task.Id, task.Title, task.Description,
+            task.ProjectId, task.AssignedUserId,
             task.DueDate, task.IsCompleted, task.Priority
         );
     }
@@ -43,6 +43,33 @@ public class TaskService : ITaskService
             t.DueDate, t.IsCompleted, t.Priority
         ));
     }
+
+    public async Task<TaskResponseDTO?> UpdateTaskAsync(string id, UpdateTaskDTO dto)
+    {
+        var task = await _taskRepository.GetByIdAsync(id);
+        if (task == null) return null;
+
+        task.Title = dto.Title;
+        task.Description = dto.Description;
+        task.DueDate = dto.DueDate;
+        task.Priority = dto.Priority;
+        task.IsCompleted = dto.IsCompleted;
+
+        await _taskRepository.UpdateAsync(task);
+
+        return new TaskResponseDTO(
+            task.Id, task.Title, task.Description,
+            task.ProjectId, task.AssignedUserId,
+            task.DueDate, task.IsCompleted, task.Priority
+        );
+    }
+
+
+    public async Task<bool> DeleteTaskAsync(string id)
+    {
+        return await _taskRepository.DeleteAsync(id);
+    }
+
 }
 
 // Interface adicional
@@ -50,4 +77,6 @@ public interface ITaskService
 {
     Task<TaskResponseDTO> CreateTask(CreateTaskDTO taskDto);
     Task<IEnumerable<TaskResponseDTO>> GetTasksByProject(string projectId);
+    Task<TaskResponseDTO?> UpdateTaskAsync(string id, UpdateTaskDTO dto);
+    Task<bool> DeleteTaskAsync(string id);
 }

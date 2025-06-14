@@ -36,10 +36,11 @@ namespace Infrastructure.Repositories
             var filter = Builders<TaskItem>.Filter.Eq(t => t.Id, task.Id);
             await _tasks.ReplaceOneAsync(filter, task);
         }
-
-        public async Task DeleteAsync(string id)
+     
+        public async Task<bool> DeleteAsync(string id)
         {
-            await _tasks.DeleteOneAsync(t => t.Id == id);
+            var result = await _tasks.DeleteOneAsync(t => t.Id == id);
+            return result.DeletedCount > 0;
         }
     }
 }

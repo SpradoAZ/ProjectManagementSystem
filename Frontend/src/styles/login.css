@@ -1,0 +1,115 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  padding: 1rem;
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(8px);
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
+  width: 100%;
+  max-width: 420px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.login-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.login-form .MuiOutlinedInput-root {
+  border-radius: 12px;
+  background-color: #f8fafc;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.login-form .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #6366f1;
+}
+
+.login-form .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #6366f1;
+    border-width: 2px;
+}
+
+.login-form .MuiInputLabel-root.Mui-focused {
+  color: #6366f1;
+}
+
+.login-form .MuiButton-root {
+  background: linear-gradient(45deg, #6366f1 0%, #8b5cf6 100%);
+  color: white;
+  font-weight: 600;
+  padding: 0.875rem;
+  border-radius: 12px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 6px rgba(99, 102, 241, 0.2);
+  text-transform: none;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  margin-top: 0.5rem;
+}
+
+.login-form .MuiButton-root:hover {
+  background: linear-gradient(45deg, #4f46e5 0%, #7c3aed 100%);
+  box-shadow: 0 6px 8px rgba(99, 102, 241, 0.3);
+  transform: translateY(-1px);
+}
+
+.login-form .MuiButton-root:active {
+  transform: translateY(0);
+}
+
+.login-form .MuiButton-root.Mui-disabled {
+  background: #e2e8f0;
+  color: #94a3b8;
+  transform: none;
+  box-shadow: none;
+}
+
+.login-form .MuiTextField-root {
+  margin-bottom: 0.5rem; /* Reduce el espacio entre campos */
+}
+
+.login-form .MuiOutlinedInput-root {
+  border-radius: 8px; /* Bordes menos redondeados */
+  padding: 8px 12px; /* Padding más compacto */
+}
+
+.login-form .MuiInputLabel-root {
+  transform: translate(14px, 14px) scale(1); /* Etiqueta más compacta */
+}
+
+.login-form .MuiInputLabel-root.Mui-focused,
+.login-form .MuiInputLabel-root.MuiFormLabel-filled {
+  transform: translate(14px, -9px) scale(0.85); /* Ajuste para etiquetas flotantes */
+}
+
+@media (max-width: 480px) {
+  .login-card {
+    padding: 2rem 1.5rem;
+    border-radius: 12px;
+  }
+  
+  .login-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
