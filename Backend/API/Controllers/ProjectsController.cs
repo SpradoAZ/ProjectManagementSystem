@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
 
 namespace API.Controllers;
+
 [Authorize]
 [ApiController]
 [Route("api/projects")]
@@ -29,4 +30,15 @@ public class ProjectsController : ControllerBase
         var projects = await _projectService.GetProjectsByUser(userId);
         return Ok(projects);
     }
+    
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetById(string id)
+    {
+        var project = await _projectService.GetByIdAsync(id);
+        if (project == null)
+            return NotFound();
+
+        return Ok(project);
+    }
+
 }

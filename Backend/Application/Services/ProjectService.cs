@@ -31,6 +31,15 @@ public class ProjectService : IProjectService
         var projects = await _projectRepository.GetAllByUserIdAsync(userId);
         return projects.Select(p => new ProjectResponseDTO(p.Id, p.Name, p.Description, p.CreatedAt));
     }
+
+    public async Task<ProjectResponseDTO?> GetByIdAsync(string id)
+    {
+        var project = await _projectRepository.GetByIdAsync(id);
+        if (project == null) return null;
+
+        return new ProjectResponseDTO(project.Id, project.Name, project.Description, project.CreatedAt);
+    }
+
 }
 
 // Interface adicional (opcional, pero recomendada para SOLID)
@@ -38,4 +47,6 @@ public interface IProjectService
 {
     Task<ProjectResponseDTO> CreateProject(CreateProjectDTO projectDto, string ownerId);
     Task<IEnumerable<ProjectResponseDTO>> GetProjectsByUser(string userId);
+    Task<ProjectResponseDTO?> GetByIdAsync(string id);
+
 }
