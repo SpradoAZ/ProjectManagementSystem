@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PQHYCYh8G3X+Pp2B6cfnfYsGd+takt4W+vFPedq1UhG7LjQmaACZPgPoIB1OnJW1eaSmnQ5GYX/e9tEGWu9LSw==",
+  "dgSpecHash": "MsV4Ay/7uwDCgaRI3mF2opT4/6lDDho7CZBo91NnhnnVgVkYNFflDDcVvNuvLOo4khke/kQTAVBuL0Ifaz3g9A==",
   "success": true,
-  "projectFilePath": "D:\\caos\\ProjectManagementSystem\\Backend\\Application\\Application.csproj",
+  "projectFilePath": "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Application\\Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\AGSalud\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+    "C:\\Users\\YOSHI\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
   ],
   "logs": []
 }

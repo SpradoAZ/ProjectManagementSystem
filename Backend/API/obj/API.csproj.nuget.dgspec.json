@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\caos\\ProjectManagementSystem\\Backend\\API\\API.csproj": {}
+    "E:\\Proyectos\\ProjectManagementSystem\\Backend\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\caos\\ProjectManagementSystem\\Backend\\API\\API.csproj": {
+    "E:\\Proyectos\\ProjectManagementSystem\\Backend\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\caos\\ProjectManagementSystem\\Backend\\API\\API.csproj",
+        "projectUniqueName": "E:\\Proyectos\\ProjectManagementSystem\\Backend\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\caos\\ProjectManagementSystem\\Backend\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\AGSalud\\.nuget\\packages\\",
-        "outputPath": "D:\\caos\\ProjectManagementSystem\\Backend\\API\\obj\\",
+        "projectPath": "E:\\Proyectos\\ProjectManagementSystem\\Backend\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\YOSHI\\.nuget\\packages\\",
+        "outputPath": "E:\\Proyectos\\ProjectManagementSystem\\Backend\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AGSalud\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\YOSHI\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,11 +26,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\caos\\ProjectManagementSystem\\Backend\\Application\\Application.csproj": {
-                "projectPath": "D:\\caos\\ProjectManagementSystem\\Backend\\Application\\Application.csproj"
+              "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Application\\Application.csproj": {
+                "projectPath": "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Application\\Application.csproj"
               },
-              "D:\\caos\\ProjectManagementSystem\\Backend\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\caos\\ProjectManagementSystem\\Backend\\Infrastructure\\Infrastructure.csproj"
+              "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -73,17 +73,17 @@
         }
       }
     },
-    "D:\\caos\\ProjectManagementSystem\\Backend\\Application\\Application.csproj": {
+    "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\caos\\ProjectManagementSystem\\Backend\\Application\\Application.csproj",
+        "projectUniqueName": "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\caos\\ProjectManagementSystem\\Backend\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\AGSalud\\.nuget\\packages\\",
-        "outputPath": "D:\\caos\\ProjectManagementSystem\\Backend\\Application\\obj\\",
+        "projectPath": "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\YOSHI\\.nuget\\packages\\",
+        "outputPath": "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AGSalud\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\YOSHI\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -95,8 +95,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\caos\\ProjectManagementSystem\\Backend\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\caos\\ProjectManagementSystem\\Backend\\Domain\\Domain.csproj"
+              "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Domain\\Domain.csproj"
               }
             }
           }
@@ -136,17 +136,17 @@
         }
       }
     },
-    "D:\\caos\\ProjectManagementSystem\\Backend\\Domain\\Domain.csproj": {
+    "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\caos\\ProjectManagementSystem\\Backend\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\caos\\ProjectManagementSystem\\Backend\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\AGSalud\\.nuget\\packages\\",
-        "outputPath": "D:\\caos\\ProjectManagementSystem\\Backend\\Domain\\obj\\",
+        "projectPath": "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\YOSHI\\.nuget\\packages\\",
+        "outputPath": "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AGSalud\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\YOSHI\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -189,17 +189,17 @@
         }
       }
     },
-    "D:\\caos\\ProjectManagementSystem\\Backend\\Infrastructure\\Infrastructure.csproj": {
+    "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\caos\\ProjectManagementSystem\\Backend\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\caos\\ProjectManagementSystem\\Backend\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\AGSalud\\.nuget\\packages\\",
-        "outputPath": "D:\\caos\\ProjectManagementSystem\\Backend\\Infrastructure\\obj\\",
+        "projectPath": "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\YOSHI\\.nuget\\packages\\",
+        "outputPath": "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AGSalud\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\YOSHI\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -211,8 +211,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\caos\\ProjectManagementSystem\\Backend\\Application\\Application.csproj": {
-                "projectPath": "D:\\caos\\ProjectManagementSystem\\Backend\\Application\\Application.csproj"
+              "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Application\\Application.csproj": {
+                "projectPath": "E:\\Proyectos\\ProjectManagementSystem\\Backend\\Application\\Application.csproj"
               }
             }
           }
@@ -226,6 +226,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
