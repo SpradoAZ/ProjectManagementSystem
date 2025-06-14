@@ -16,6 +16,7 @@ public class ProjectsController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Create(CreateProjectDTO projectDto)
     {
+
         var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
         var project = await _projectService.CreateProject(projectDto, userId);
         return Ok(project);
