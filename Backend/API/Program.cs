@@ -4,6 +4,8 @@ using Microsoft.IdentityModel.Tokens;
 using Domain.Interfaces; // Para IUserRepository, IProjectRepository, etc.
 using Infrastructure.Repositories; // Para UserRepository, ProjectRepository, etc.
 using Application.Services; // Para AuthService, ProjectService, etc.
+using Infrastructure.Services; // Para JwtService.
+using Infrastructure.Settings;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);

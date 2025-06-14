@@ -1,0 +1,12 @@
+E:\Proyectos\ProjectManagementSystem\Backend\Domain\bin\Debug\net6.0\Domain.deps.json
+E:\Proyectos\ProjectManagementSystem\Backend\Domain\bin\Debug\net6.0\Domain.dll
+E:\Proyectos\ProjectManagementSystem\Backend\Domain\bin\Debug\net6.0\Domain.pdb
+E:\Proyectos\ProjectManagementSystem\Backend\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+E:\Proyectos\ProjectManagementSystem\Backend\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\ProjectManagementSystem\Backend\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+E:\Proyectos\ProjectManagementSystem\Backend\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+E:\Proyectos\ProjectManagementSystem\Backend\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+E:\Proyectos\ProjectManagementSystem\Backend\Domain\obj\Debug\net6.0\Domain.dll
+E:\Proyectos\ProjectManagementSystem\Backend\Domain\obj\Debug\net6.0\refint\Domain.dll
+E:\Proyectos\ProjectManagementSystem\Backend\Domain\obj\Debug\net6.0\Domain.pdb
+E:\Proyectos\ProjectManagementSystem\Backend\Domain\obj\Debug\net6.0\ref\Domain.dll

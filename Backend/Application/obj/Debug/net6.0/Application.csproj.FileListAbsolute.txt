@@ -1,0 +1,15 @@
+E:\Proyectos\ProjectManagementSystem\Backend\Application\bin\Debug\net6.0\Application.deps.json
+E:\Proyectos\ProjectManagementSystem\Backend\Application\bin\Debug\net6.0\Application.dll
+E:\Proyectos\ProjectManagementSystem\Backend\Application\bin\Debug\net6.0\Application.pdb
+E:\Proyectos\ProjectManagementSystem\Backend\Application\bin\Debug\net6.0\Domain.dll
+E:\Proyectos\ProjectManagementSystem\Backend\Application\bin\Debug\net6.0\Domain.pdb
+E:\Proyectos\ProjectManagementSystem\Backend\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+E:\Proyectos\ProjectManagementSystem\Backend\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\ProjectManagementSystem\Backend\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+E:\Proyectos\ProjectManagementSystem\Backend\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+E:\Proyectos\ProjectManagementSystem\Backend\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+E:\Proyectos\ProjectManagementSystem\Backend\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+E:\Proyectos\ProjectManagementSystem\Backend\Application\obj\Debug\net6.0\Application.dll
+E:\Proyectos\ProjectManagementSystem\Backend\Application\obj\Debug\net6.0\refint\Application.dll
+E:\Proyectos\ProjectManagementSystem\Backend\Application\obj\Debug\net6.0\Application.pdb
+E:\Proyectos\ProjectManagementSystem\Backend\Application\obj\Debug\net6.0\ref\Application.dll
